@@ -1,0 +1,19 @@
+{
+  "name": "my-npm-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krzyczkowski/my-npm-package.git"
+  },
+  "author": "Wiktor Krzyczkowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krzyczkowski/my-npm-package/issues"
+  },
+  "homepage": "https://github.com/Krzyczkowski/my-npm-package#readme"
+}
