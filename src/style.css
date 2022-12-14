@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    font-family: 'VT323', monospace;
+    font-size:3rem;
+    background-color: black;
+    color:white;
+}
+.cookie{
+    width:20rem;
+}
+.cookieContainer{
+    font-size: 4rem;
+    margin-right:2rem;
+}
+.upgradesContainer{
+    margin-top:1rem;
+    margin-left:3rem;
+}
+.upgradeElement{
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin:1rem;
+}
+col{
+    display: flex;
+    justify-content: center;
+    flex-flow:column wrap;
+}
+
+.row{
+    display:flex;
+    flex-flow:row wrap;
+}
+button{
+    margin-left:1rem;
+    margin-right:1rem;
+    padding:1.5rem 0.5rem 1.5rem 0.5rem;
+}
+main{
+    margin-top:5rem;
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+button{
+    height:3rem;
+    font-size:4rem;
+    line-height:0rem;
+}
+
+.disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.active{
+    background-color: greenyellow;
+}
+button{
+    background-color: rgb(255, 89, 89);
+    border:5px solid white;
+    font-family: 'VT323';
+}
+table{
+    border-collapse:separate
+}

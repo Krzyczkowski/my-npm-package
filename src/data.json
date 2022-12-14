@@ -1,0 +1,36 @@
+{
+    "upgrades": [ 
+        {
+            "id" : 0,
+            "name" : "nameOne",
+            "cost" : 2,
+            "incClickPerSec" : 2,
+            "incClickValue" : 0,
+            "levelUpIncrease" : 1.3 
+        },
+        {
+            "id" : 1,
+            "name" : "name2",
+            "cost" : 4,
+            "incClickPerSec" : 2,
+            "incClickValue" : 0,
+            "levelUpIncrease" : 1.3 
+        },
+        {
+            "id" : 2,
+            "name" : "name3",
+            "cost" : 8,
+            "incClickPerSec" : 5,
+            "incClickValue" : 0,
+            "levelUpIncrease" : 1.3 
+        },
+        {
+            "id" : 3,
+            "name" : "name4",
+            "cost" : 15,
+            "incClickPerSec" : 0,
+            "incClickValue" : 0.25,
+            "levelUpIncrease" : 2 
+        }
+    ]
+}

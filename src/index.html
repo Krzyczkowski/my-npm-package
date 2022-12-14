@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="main.js"></script>
+    
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+    <main>
+        <div class="col cookieContainer">
+            <img src="img/cookie.png" alt="ciastko" class="cookie">
+            <div class="row">Ilość ciasteczek: <div class="cookieCounter">0</div></div>
+            <div class="row">Per Sec(PS): <div class="cookiePerSec">0</div></div>
+            <div class="row">Click Value(CV): <div class="cookiePerClick">1</div></div>
+        </div>
+        <div class="col">
+            <table class="upgradesTable">
+                <thead>
+                    <th>Level</th>
+                    <th>Upgrade</th>
+                    <th>Cost</th>
+                    <th>Boost</th>
+                </thead>
+                <tbody class="upgradeContainer"></tbody>
+            <!-- <div class="row"><div class="level1">0</div><button value="0" onclick="upgrade(this.value)" class="upgrade1">upgrade 1</button> Cost: <div class="l1cost"></div></div> -->
+            </table>
+        </div>
+       
+
+        
+    </main>
+   
+
     
+    <script src="main.js"></script>
 </body>
 </html>
